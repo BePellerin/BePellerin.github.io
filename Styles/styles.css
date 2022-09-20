@@ -20,7 +20,7 @@ body{
     transition: 1s ease-in-out;s
 }
 h2{
-    font-size: calc(3rem + 5vw);
+    font-size: calc(3rem + 4vw);
     text-align: center;
     color: rgb(217, 217, 217);
     font-family: "font-bold", serif;
