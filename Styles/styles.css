@@ -276,10 +276,10 @@ footer a{
     font-size: calc(1rem + 2vw);
 }
 .img2{
-    background: url(../assets/img/bill-gates-2.jpg) center/cover;
-    filter: grayscale(100%);
+    background: url(../assets/img/img-footer-3.jpg) center/cover;
+    filter: grayscale(0%);
     transition: 1s;
 }
 .img2:hover{
-    filter: grayscale(20%);
+    filter: grayscale(100%);
 }
