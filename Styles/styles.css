@@ -17,7 +17,7 @@ body{
     font-family: "font-reg", serif;
     background: black;
     color: #fefeff;
-    transition: 1s ease-in-out;s
+    transition: 1s ease-in-out;
 }
 h2{
     font-size: calc(3rem + 4vw);
@@ -122,6 +122,8 @@ header{
 }
 #h1-wrapper{
     transition: 0.7s;
+    margin-top: 90;
+    margin-bottom: 90;
 }
 h1{
     font-size: calc(2rem + 5vw);
@@ -134,7 +136,7 @@ h1{
     transition: 1.2s;
 }
 header h2{
-    font-size: calc(1rem + 5vw);
+    font-size: calc(1rem + 4vw);
     margin: 18px 0;
     text-align: left;
 }
@@ -157,7 +159,9 @@ header h2{
 }
 .h2-wrapper{
     mix-blend-mode: exclusion;
-    margin: -220px 0 200px;
+    margin: -265px 0 200px;
+    /* text-align:center;
+    text-justify: inter-character; */
 }
 .about p{
     width: 80%;
@@ -210,7 +214,7 @@ header h2{
 .project::before{
     content: "";
     position: absolute;
-    height: 110%;
+    height: 100%;
     width: 100%;
     top: -3px;
     background: #fefeff;
@@ -249,7 +253,7 @@ header h2{
     opacity: 0;
 }
 .projects-infos a{
-    font-size: calc(1rem + 3vw);
+    font-size: calc(0.9rem + 2vw);
 }
 .projects-infos p{
     font-size: 2rem;
@@ -276,10 +280,9 @@ footer a{
     font-size: calc(1rem + 2vw);
 }
 .img2{
+    height: 395px;
+    width: 100vw;
+    max-width: 395px;
+    margin: 0 auto;
     background: url(../assets/img/img-footer-3.jpg) center/cover;
-    filter: grayscale(0%);
-    transition: 1s;
-}
-.img2:hover{
-    filter: grayscale(100%);
 }
