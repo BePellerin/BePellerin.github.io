@@ -3,37 +3,47 @@
     font-family: "font-reg";
     src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
 }
+
 @font-face {
     font-family: "font-bold";
     src: url(../assets/fonts/PlayfairDisplay-ExtraBold.ttf);
 }
-*::selection{
+
+*::selection {
     background: coral;
     color: #fefeff;
 }
-html{scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: "font-reg", serif;
     background: black;
     color: #fefeff;
     transition: 1s ease-in-out;
 }
-h2{
+
+h2 {
     font-size: calc(3rem + 4vw);
     text-align: center;
     color: rgb(217, 217, 217);
     font-family: "font-bold", serif;
     letter-spacing: 3px;
 }
-.title{
+
+.title {
     font-size: calc(1.5 + 5vw);
     letter-spacing: 0;
 }
-span{
+
+span {
     display: inline-block;
 }
-a, a:visited {
+
+a,
+a:visited {
     cursor: pointer;
     position: relative;
     text-decoration: none;
@@ -41,7 +51,8 @@ a, a:visited {
     transition: 0.1s linear;
     font-size: calc(0.8rem + 0.8vw);
 }
-a::after{
+
+a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -52,22 +63,26 @@ a::after{
     transform-origin: left;
 }
 
-a:hover{
+a:hover {
     transform: scale(1.04);
     color: coral;
 }
-a:hover::after{
+
+a:hover::after {
     animation: animlink 1.4s infinite ease-in-out;
 }
-@keyframes animlink{
-    50%{
-    transform: scaleX(0.2);
+
+@keyframes animlink {
+    50% {
+        transform: scaleX(0.2);
     }
-100%{
-    transform: scaleX(1);
+
+    100% {
+        transform: scaleX(1);
     }
 }
-.img{
+
+.img {
     height: 395px;
     width: 100vw;
     max-width: 395px;
@@ -75,10 +90,12 @@ a:hover::after{
     filter: brightness(100%);
     transition: 1s;
 }
-.img:hover{
+
+.img:hover {
     filter: brightness(70%);
 }
-.line{
+
+.line {
     height: 2px;
     width: 78%;
     margin: 0 auto;
@@ -89,21 +106,25 @@ a:hover::after{
     opacity: 0;
     transform: scaleX(0);
 }
-.line-wrapper.is-inview .line{
+
+.line-wrapper.is-inview .line {
     opacity: 1;
     transform: scaleX(1);
 }
-.wrapper{
+
+.wrapper {
     perspective: 900px;
 }
-.appear{
+
+.appear {
     opacity: 0;
     transform: translateY(100%) rotateX(-80deg);
     transform-origin: top center;
     transform-style: preserve-3d;
     transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.appear.is-inview{
+
+.appear.is-inview {
     transition-delay: 0.7s;
     opacity: 1;
     transform: none;
@@ -111,39 +132,46 @@ a:hover::after{
 
 
 /* Paramètres par ordre d'apparition */
-header{
+header {
     height: 100vh;
     position: relative;
     margin: 2vw 2vw;
 }
-.links{
+
+.links {
     display: flex;
     justify-content: space-around;
 }
-#h1-wrapper{
+
+#h1-wrapper {
     transition: 0.7s;
     margin-top: 90;
     margin-bottom: 90;
 }
-h1{
+
+h1 {
     font-size: calc(2rem + 5vw);
-   margin-top: 120px;
-   font-family: "font-bold" serif;
-   letter-spacing: 6px;
-   color: #fefeff;
+    margin-top: 120px;
+    font-family: "font-bold" serif;
+    letter-spacing: 6px;
+    color: #fefeff;
 }
-#h2-1{
+
+#h2-1 {
     transition: 1.2s;
 }
-header h2{
+
+header h2 {
     font-size: calc(1rem + 4vw);
     margin: 18px 0;
     text-align: left;
 }
-#h2-2{
+
+#h2-2 {
     transition: 1.6s;
 }
-.scroll-wrapper{
+
+.scroll-wrapper {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -151,19 +179,23 @@ header h2{
     color: rgb(217, 217, 217);
     font-size: calc(0.8rem + 0.5vw);
 }
-.about{
+
+.about {
     margin: 400px 0 250px;
 }
-.img1{
+
+.img1 {
     background: url(../assets/img/Photo-1-Redim.jpeg);
 }
-.h2-wrapper{
+
+.h2-wrapper {
     mix-blend-mode: exclusion;
     margin: -265px 0 200px;
     /* text-align:center;
     text-justify: inter-character; */
 }
-.about p{
+
+.about p {
     width: 80%;
     min-width: 200px;
     text-align: center;
@@ -172,23 +204,29 @@ header h2{
     font-size: calc(0.8rem + 1vw);
     letter-spacing: 1px;
 }
-.about h2{
+
+.about h2 {
     font-size: calc(3.5rem + 5vw);
 }
-.skills{
+
+.skills {
     margin: 200px 0 250px;
 }
-.skills h2{
+
+.skills h2 {
     margin-bottom: 150px;
 }
-.skills .wrapper{
+
+.skills .wrapper {
     margin: -15px 0;
 }
-.skills .appear{
+
+.skills .appear {
     text-align: center;
     transition: 1.5s;
 }
-.skills p{
+
+.skills p {
     font-size: calc(1rem + 1.4vw);
     font-family: "font-bold" serif;
     letter-spacing: 4px;
@@ -197,13 +235,16 @@ header h2{
     display: inline-block;
     padding: 6px 12px 12px 12px;
 }
-.portfolio{
+
+.portfolio {
     margin: 200px 0;
 }
-.projects-container{
+
+.projects-container {
     margin-top: 100px;
 }
-.project{
+
+.project {
     position: relative;
     width: 45vw;
     max-width: 700px;
@@ -211,7 +252,8 @@ header h2{
 
     margin: 50px 5vw;
 }
-.project::before{
+
+.project::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -221,30 +263,37 @@ header h2{
     transition: width 1s ease-out;
     transition-delay: 0.8s;
 }
-.project.is-inview::before{
+
+.project.is-inview::before {
     width: 0;
 }
-#p1{
+
+#p1 {
     margin: 2vw;
 }
-#p2{
+
+#p2 {
     margin: -100px 2vw 0 auto;
 }
+
 /* #p3{
     margin: 2vw;
 } */
-.project img{
+.project img {
     transition: 0.4s ease-out;
     width: 100%;
 }
-.project:hover img{
+
+.project:hover img {
     filter: brightness(20%);
 }
-.project:hover .projects-infos{
+
+.project:hover .projects-infos {
     opacity: 1;
     transform: translate(0, -50%);
 }
-.projects-infos{
+
+.projects-infos {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -252,37 +301,70 @@ header h2{
     transition: 0.4s ease-out;
     opacity: 0;
 }
-.projects-infos a{
+
+.projects-infos a {
     font-size: calc(0.9rem + 2vw);
 }
-.projects-infos p{
+
+.projects-infos p {
     font-size: 2rem;
     margin-top: 1.5vw;
     color: #fefeff;
 }
-footer{
+
+footer {
     margin: 100px 0 100px;
 }
-footer p{
+
+footer p {
     font-size: calc(1rem + 2vw);
     margin: 20px;
     text-align: center;
 }
-#l2{
+
+#l2 {
     transition-delay: 1.2s;
 }
-#l3{
+
+#l3 {
     transition-delay: 1.6s;
 }
-footer a{
+
+footer a {
     font-family: "font-bold", serif;
     color: #000101;
     font-size: calc(1rem + 2vw);
 }
-.img2{
+
+.img2 {
     height: 395px;
     width: 100vw;
     max-width: 395px;
     margin: 0 auto;
     background: url(../assets/img/img-footer-3.jpg) center/cover;
+}
+
+@media screen and (max-width: 500px) {
+    .img1 {
+        background: url(../assets/img/Photo-1-RedimMobile.jpeg);
+    }
+
+    .img {
+        height: 200px;
+        width: 50vw;
+        /* max-width: 200px; */
+        margin: 200px auto;
+        filter: brightness(100%);
+        transition: 1s;
+    }
+
+    #p1 {
+        margin: auto;
+        min-width: 300px;
+    }
+
+    #p2 {
+        margin: auto;
+        min-width: 300px;
+    }
 }
