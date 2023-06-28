@@ -351,6 +351,8 @@ footer a {
 
     .img {
         height: 250px;
+        width: 250px;
+        max-height: 250px;
         max-width: 250px;
         /* max-width: 200px; */
         margin: 200px auto;
