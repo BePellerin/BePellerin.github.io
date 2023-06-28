@@ -344,14 +344,14 @@ footer a {
     background: url(../assets/img/img-footer-3.jpg) center/cover;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
     .img1 {
         background: url(../assets/img/Photo-1-RedimMobile.jpeg);
     }
 
     .img {
-        height: 200px;
-        width: 50vw;
+        height: 250px;
+        width: 250px;
         /* max-width: 200px; */
         margin: 200px auto;
         filter: brightness(100%);
