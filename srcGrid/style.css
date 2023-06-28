@@ -8,12 +8,12 @@ body {
   height: 100vh;
   width: 100vw;
   padding: 20px;
-  background-color: #121212;
+  background-color: #161616;
   position: relative;
   overflow: hidden;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-auto-rows: 350px;
@@ -23,9 +23,19 @@ body {
   padding-right: 10px;
   grid-auto-flow: dense;
 }
-a{
-  background-color: white;
+
+a {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+
 }
+
+a:hover {
+  color: #ffa500;
+  transition: 0.4s ease;
+}
+
 .grid-container::-webkit-scrollbar {
   background-color: #dedede;
   width: 10px;
@@ -41,15 +51,15 @@ a{
   transition: all 0.4s ease;
 }
 
-#nature-2{
+.t1 {
   grid-column: span 2;
 }
 
-#nature-4{
+.t2 {
   grid-row: span 2;
 }
 
-#nature-13 {
+.t3 {
   grid-column: span 2;
   grid-row: span 2;
 }
@@ -57,7 +67,7 @@ a{
 .grid-img {
   width: 100%;
   height: 100%;
-  padding: 5px;
+  /* padding: 0px; */
   object-fit: cover;
   display: block;
   transition: transform 0.4s ease;
@@ -66,7 +76,8 @@ a{
 .grid-item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  z-index: 2; /*bug correction */
+  z-index: 2;
+  /*bug correction */
 }
 
 .grid-img:hover {
@@ -76,18 +87,20 @@ a{
 #popup-bg {
   display: none;
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 10; */
+  /* left: 0; */
   width: 100%;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  background-color: rgba(7, 1, 28, 0.8);
   z-index: 3;
   justify-content: center;
   align-items: center;
+  
 }
 
 #popup-bg.active {
   display: flex;
+  
 }
 
 #popup-content {
@@ -99,8 +112,9 @@ a{
 }
 
 #popup-img {
-  /* width: 90%; */
-  height: 50em;
+  width: 90%;
+  max-height: 45vw;
+  transition: 0.4s ease;
 }
 
 #popup-close {
@@ -121,5 +135,5 @@ a{
 }
 
 #popup-close:hover {
-  background-color: orange;
+  background-color: #ffa500;
 }

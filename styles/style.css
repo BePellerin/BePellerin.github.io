@@ -228,11 +228,11 @@ header h2{
     margin: 2vw;
 }
 #p2{
-    margin: 0 2vw 0 auto;
+    margin: -100px 2vw 0 auto;
 }
-#p3{
+/* #p3{
     margin: 2vw;
-}
+} */
 .project img{
     transition: 0.4s ease-out;
     width: 100%;
