@@ -351,6 +351,7 @@ footer a {
     font-size: 10px;
     width: 100px;
     height: 20px;
+    transition: 0.9s;
 }
 
 .invisible1:hover {
@@ -365,6 +366,7 @@ footer a {
     font-size: 10px;
     width: 75px;
     height: 20px;
+    transition: 0.9s;
 }
 
 .invisible2:hover {
