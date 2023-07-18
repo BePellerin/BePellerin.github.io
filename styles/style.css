@@ -335,7 +335,7 @@ header h2 {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin-left: 25vw;
+    margin-left: 10vw;
     transition: 0.4s ease-out;
     opacity: 0;
    
