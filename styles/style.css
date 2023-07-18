@@ -293,7 +293,7 @@ header h2 {
 .project::before {
     content: "";
     position: absolute;
-    
+
     height: 100%;
     width: 100%;
     top: 0px;
@@ -338,7 +338,7 @@ header h2 {
     margin-left: 10vw;
     transition: 0.4s ease-out;
     opacity: 0;
-   
+
 }
 
 .projects-infos a {
@@ -427,56 +427,7 @@ footer a {
     visibility: visible;
 } */
 
-@media screen and (max-width: 640px) {
-    /* .mobileDev {
-        visibility: visible;
-    }
 
-    .mobileDevVis {
-        visibility: hidden;
-    } */
-
-    .img1 {
-        background: url(../assets/img/Photo-1-RedimMobile.jpeg);
-    }
-
-    .img {
-        height: 250px;
-        width: 250px;
-        max-height: 250px;
-        max-width: 250px;
-        /* max-width: 200px; */
-        margin: 200px auto;
-        filter: brightness(100%);
-        transition: 1s;
-    }
-
-    #p1 {
-        margin: auto;
-        min-width: 350px;
-        padding-bottom: 20px;
-    }
-
-    #p2 {
-        margin: auto;
-        min-width: 350px;
-    }
-
-    .title {
-        font-size: 55px;
-        letter-spacing: 0;
-    }
-    h3{
-        font-size: calc(0.3rem + 2.5vw);
-    }
-
-    /* .smallTitle h3{
-        color: #000;
-        letter-spacing: 0;
-    } */
-
-
-}
 
 /* Carousel 1 */
 @-webkit-keyframes slidein {
@@ -796,3 +747,105 @@ footer a {
 }
 
 /* Carousel 2 */
+
+@media screen and (max-width: 640px) {
+    /* .mobileDev {
+        visibility: visible;
+    }
+
+    .mobileDevVis {
+        visibility: hidden;
+    } */
+
+    .img1 {
+        background: url(../assets/img/Photo-1-RedimMobile.jpeg);
+    }
+
+    .img {
+        height: 250px;
+        width: 250px;
+        max-height: 250px;
+        max-width: 250px;
+        /* max-width: 200px; */
+        margin: 200px auto;
+        filter: brightness(100%);
+        transition: 1s;
+    }
+
+    #p1 {
+        margin: auto;
+        min-width: 350px;
+        padding-bottom: 20px;
+    }
+
+    #p2 {
+        margin: auto;
+        min-width: 350px;
+    }
+
+    .title {
+        font-size: 55px;
+        letter-spacing: 0;
+    }
+
+    h3 {
+        font-size: calc(0.3rem + 2.5vw);
+    }
+
+    .bodyCar #scene {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 500px;
+        height: 400px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        overflow: hidden;
+    }
+
+    .bodyCar #scene #left-zone {
+        background: #fff;
+        height: 75%;
+        flex-grow: 0;
+        display: flex;
+        width: 150px;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .bodyCar #scene #left-zone .list li.item input[type=radio]~.content {
+        position: absolute;
+        /* margin-top: -50px; */
+        left: 150px;
+        top: -400px;
+        /* width: 650px; */
+        min-height: 400px;
+        background-position: center;
+        /* height: 400px; */
+        /* background-size: auto; */
+        -webkit-animation-duration: 0.75s;
+        animation-duration: 0.75s;
+        -webkit-animation-name: slideout;
+        animation-name: slideout;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #f7f8ff;
+    }
+
+    /* .smallTitle h3{
+        color: #000;
+        letter-spacing: 0;
+    } */
+
+
+}
