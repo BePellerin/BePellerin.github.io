@@ -419,22 +419,22 @@ footer a {
     width: 30px;
 }
 
-.mobileDev {
+/* .mobileDev {
     visibility: hidden;
 }
 
 .mobileDevVis {
     visibility: visible;
-}
+} */
 
 @media screen and (max-width: 640px) {
-    .mobileDev {
+    /* .mobileDev {
         visibility: visible;
     }
 
     .mobileDevVis {
         visibility: hidden;
-    }
+    } */
 
     .img1 {
         background: url(../assets/img/Photo-1-RedimMobile.jpeg);
@@ -465,6 +465,9 @@ footer a {
     .title {
         font-size: 55px;
         letter-spacing: 0;
+    }
+    h3{
+        font-size: calc(0.3rem + 2.5vw);
     }
 
     /* .smallTitle h3{
