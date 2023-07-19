@@ -419,17 +419,7 @@ footer a {
     width: 30px;
 }
 
-/* .mobileDev {
-    visibility: hidden;
-}
-
-.mobileDevVis {
-    visibility: visible;
-} */
-
-
-
-/* Carousel 1 */
+/* Carousel*/
 @-webkit-keyframes slidein {
     0% {
         top: -400px;
@@ -575,6 +565,7 @@ footer a {
     max-width: 75%;
     letter-spacing: 2px;
     text-align: center;
+    text-shadow: 1px 1px 5px #1c1d66;
 }
 
 .bodyCar #scene #left-zone .list li.item input[type=radio]~.content h2 {
@@ -582,12 +573,17 @@ footer a {
     /* max-width: 75%; */
     letter-spacing: 2px;
     text-align: center;
+    text-shadow: 1px 1px 5px #000101;
+}
+.bodyCar #scene #left-zone .list li.item input[type=radio]~.content a {
+text-shadow: 1px 1px 5px #1c1d66;
 }
 
 .bodyCar #scene #left-zone .list li.item input[type=radio]:checked~label {
     opacity: 1;
     -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    /* text-shadow: 1px 1px 2px #c0c0c7; */
 }
 
 .bodyCar #scene #left-zone .list li.item input[type=radio]:checked~label.label_strawberry {
@@ -634,8 +630,6 @@ footer a {
     height: 100%;
     flex-grow: 3;
 }
-
-/* Carousel 2 */
 
 @media screen and (max-width: 640px) {
     /* .mobileDev {
