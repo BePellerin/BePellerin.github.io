@@ -724,7 +724,7 @@ text-shadow: 1px 1px 5px #1c1d66;
 
     .bodyCar #scene #left-zone .list li.item input[type=radio]~.content p {
         margin-top: -35px;
-        margin-right: 425px;
+        margin-right: 400px;
         max-width: 28%;
         letter-spacing: 1px;
         text-align: left;
@@ -740,8 +740,8 @@ text-shadow: 1px 1px 5px #1c1d66;
 
     .bodyCar #scene #left-zone .list li.item input[type=radio]~.content h2 {
         font-size: 22px;
-        margin-top: -50px;
-        margin-right: 425px;
+        margin-top: -45px;
+        margin-right: 440px;
         margin-left: 30px;
         padding-bottom: 40px;
         box-sizing: border-box;
