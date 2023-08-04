@@ -351,11 +351,11 @@ header h2 {
     color: #fefeff;
 }
 
-footer {
+.footer {
     margin: 100px 0 100px;
 }
 
-footer p {
+.footer p {
     font-size: calc(1rem + 2vw);
     margin: 20px;
     text-align: center;
@@ -369,19 +369,19 @@ footer p {
     transition-delay: 1.6s;
 }
 
-footer a {
+.footer a {
     font-family: "font-bold", serif;
     color: #000101;
     font-size: calc(1rem + 2vw);
 }
 
-.img2 {
+/* .img2 {
     height: 395px;
     width: 100vw;
     max-width: 395px;
     margin: 0 auto;
     background: url(../assets/img/img-footer-3.jpg) center/cover;
-}
+} */
 
 .invisible1 {
     opacity: 0;
