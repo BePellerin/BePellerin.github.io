@@ -504,7 +504,7 @@ header h2 {
     height: 75%;
     flex-grow: 0;
     display: flex;
-    width: 350px;
+    width: 348px;
     align-items: center;
     justify-content: left;
 }
@@ -565,7 +565,7 @@ header h2 {
     max-width: 75%;
     letter-spacing: 2px;
     text-align: center;
-    text-shadow: 1px 1px 5px #1c1d66;
+    text-shadow: 2px 2px 5px #11124d;
 }
 
 .bodyCar #scene #left-zone .list li.item input[type=radio]~.content h2 {
