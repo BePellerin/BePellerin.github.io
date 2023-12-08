@@ -10,7 +10,7 @@
 }
 
 *::selection {
-    background: coral;
+    background: #acd4e3;
     color: #fefeff;
 }
 
@@ -471,10 +471,10 @@ header h2 {
 .bodyCar {
     /* background: #eee; */
     font-family: "Tahoma";
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    /* -moz-user-select: none; */
+    /* -webkit-user-select: none; */
+    /* -ms-user-select: none; */
+    /* user-select: none; */
 }
 
 .bodyCar h2 {
