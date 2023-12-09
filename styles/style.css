@@ -96,9 +96,9 @@ a:hover::after {
 }
 
 .img {
-    height: 395px;
+    height: 150px;
     width: 100vw;
-    max-width: 395px;
+    max-width: 250px;
     margin: 0 auto;
     filter: brightness(100%);
     transition: 1s;
@@ -228,6 +228,7 @@ header h2 {
 }
 
 .about p {
+    margin-top: 0px;
     width: 80%;
     min-width: 200px;
     text-align: center;
@@ -239,6 +240,8 @@ header h2 {
 
 .about h2 {
     font-size: calc(3.5rem + 5vw);
+    /* margin-bottom: 100px; */
+    margin: 100px 0 0 0 ;
 }
 
 .skills {
